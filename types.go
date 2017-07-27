@@ -21,6 +21,7 @@ var (
 func main() {
 	f := "This is declared inside function"
 	fmt.Println(a, b, c, d, e, f, MinInt, MaxInt)
+
 	// Rune is an alias for int32. It is an UTF-8 encoded code point.
 	// You could loop over each byte (which is only equivalent to a character when strings are encoded in 8-bit ASCII, which they are not in Go!)
 	str := []rune("hello")
